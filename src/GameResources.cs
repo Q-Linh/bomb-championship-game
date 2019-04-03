@@ -6,6 +6,11 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using SwinGameSDK;
 
+
+/// <summary>
+/// The GameResources is responsible for loading all the neccessary resources (such as images and fonts) at the start of the game
+/// and free those resources when the game ends.
+/// </summary> 
 namespace MyGame
 {
     public static class GameResources
@@ -136,20 +141,6 @@ namespace MyGame
         {
             _Images.Add(imageName, SwinGame.LoadBitmap(filename));
         }
-
-        /*
-        private static void NewTransparentColorImage(string imageName, string fileName, Color transColor)
-        {
-            Bitmap bitmap = SwinGame.LoadBitmap(SwinGame.PathToResource(fileName, ResourceKind.BitmapResource));
-            //Bitmap bitmap = SwinGame.LoadBitmap (SwinGame.PathToResource (fileName, ResourceKind.BitmapResource), true, transColor);
-            _Images.Add(imageName, bitmap);
-        }
-
-        private static void NewTransparentColourImage(string imageName, string fileName, Color transColor)
-        {
-            NewTransparentColorImage(imageName, fileName, transColor);
-        }
-        */
 
         private static void NewSound(string soundName, string filename)
         {

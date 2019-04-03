@@ -4,6 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/// <summary>
+/// The GameObject is the parent class of other game objects: Player, Bomb, Obstacle, Dynamite.
+/// </summary>
 namespace MyGame
 {
     public abstract class GameObject

@@ -4,6 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/// <summary>
+/// The Player is a type of game object that can move, get bombs from the field and lay them. 
+/// </summary>
 namespace MyGame
 {
     public class Player : GameObject

@@ -6,6 +6,9 @@ using System.Collections.Generic;
 //using System.Data;
 using System.Diagnostics;
 
+/// <summary>
+/// The Tile knows its location on the grid and knows whether it is occupied and who is the occupant. 
+/// </summary>
 namespace MyGame
 {
     public class Tile

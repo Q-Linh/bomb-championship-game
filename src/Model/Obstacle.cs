@@ -4,6 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/// <summary>
+/// The Obstacle is a type of game object that prevents the players from passing the tile. 
+/// </summary>
 namespace MyGame
 {
     public class Obstacle : GameObject

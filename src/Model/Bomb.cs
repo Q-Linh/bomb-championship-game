@@ -5,6 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using SwinGameSDK;
 
+/// <summary>
+/// The Bomb is a type of game object that will explode after a specific amount of time. 
+/// </summary>
 namespace MyGame
 {
     public class Bomb : GameObject, IExplode

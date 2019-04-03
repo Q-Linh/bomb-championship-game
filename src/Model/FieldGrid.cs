@@ -4,6 +4,9 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
 
+/// <summary>
+/// The FieldGrid is the grid upon which all the game objects are laid.
+/// </summary>
 namespace MyGame
 {
     public class FieldGrid

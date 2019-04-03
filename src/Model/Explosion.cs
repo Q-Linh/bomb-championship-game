@@ -5,6 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using SwinGameSDK;
 
+/// <summary>
+/// The Explosion controls the explosions of the bombs and dynamite.
+/// </summary>
 namespace MyGame
 {
     public class Explosion

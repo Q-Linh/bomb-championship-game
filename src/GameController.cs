@@ -7,6 +7,12 @@ using SwinGameSDK;
 using System.Runtime.ExceptionServices;
 using System.Security;
 
+
+/// <summary>
+/// The GameController is responsible for controlling the game,
+/// managing user input, and displaying the current state of the
+/// game.
+/// </summary>
 namespace MyGame
 {
     public static class GameController

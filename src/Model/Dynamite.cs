@@ -4,6 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/// <summary>
+/// The Dynamite is a type of game object that will explode if it is hit by an explosion..
+/// </summary>
 namespace MyGame
 {
     public class Dynamite : GameObject, IExplode

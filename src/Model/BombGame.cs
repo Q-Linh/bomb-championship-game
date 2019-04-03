@@ -4,6 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/// <summary>
+/// The BombGame controls a big part of the game. It will add all the game objects (bomb, dynamite, tree and wall)
+/// to the game and generate a random map. It also checks if any of these objects are destroyed and redeploys new bombs.
+/// It will also check if a player is killed.
+/// </summary>
 namespace MyGame
 {
     public class BombGame
